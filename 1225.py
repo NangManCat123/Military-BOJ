@@ -1,7 +1,6 @@
 a,b=input().split()
 a=list(map(int,a))
 b=list(map(int,b))
-print(a,b)
 alist,blist=[],[]
 for i in range(1,10):
     alist.append(a.count(i))

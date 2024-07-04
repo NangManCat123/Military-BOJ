@@ -8,7 +8,11 @@ for i in ilist:
     else:
         if abs(sum-100)<abs(sum+i-100):
             print(sum)
+            sum+=100
             break
         else:
             print(sum+i)
+            sum+=100
             break
+if sum<=100:
+    print(sum)
